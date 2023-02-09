@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>GET INPUT</title>
+
+                        <style>
+                                        .main-div
+                                        {
+                                          position: absolute;
+                                          left: 50%;
+                                          top:50%;
+                                          transform: translate(-50%,-50%);
+                                        }
+                        </style>
+                    </head>
+                    <body>
+                        <center>
+                        <h1>PROJECT 2 - GET USER INPUT AND DISPLAY</h1>
+                       </center>
+     
+
+                       <div class="main-div">
+                                        
+                                        <div>
+                                            <label for="">Your Name</label>
+                                            <input type="text" name="" id="text">
+                                         <br><br>
+                                            <label>Choose IceCream Flavour</label>
+
+                                            <select id="flavour" name="flavour" onchange="detail()">
+
+                                                            <option value="">Select One</option>
+                                                            <option value="Chocolate">Chocolate</option>
+                                                            <option value="Strawberry">Strawberry</option>
+                                                            <option value="Vanila">Vanila</option>
+                                                            <option value="Mango">Mango</option>
+
+                                            </select>
+
+                                            <br><br>
+
+                                            <div class="result"></div>
+
+                                        </div>
+
+                       </div>
+
+
+                          <script src="p2.js"></script>
+                    
+                    </body>
+</html>
